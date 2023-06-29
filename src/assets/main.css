@@ -1,0 +1,49 @@
+@import './base.css';
+@import './theme.css';
+
+a,
+.green {
+  text-decoration: none;
+  color: #00bd7e;
+  transition: 0.4s;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--heading-color);
+}
+
+button {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  border: 1px solid transparent;
+  min-width: max-content;
+  padding: 5px 10px;
+  margin-top: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  filter: contrast(50%);
+}
+
+.card {
+  transition: all 0.3s;
+  box-shadow: var(--background-color) 0px 5px 15px;
+}
+
+.card:hover {
+  box-shadow: var(--background-color) 0px 8px 24px;
+  transform: scale(1.005);
+}

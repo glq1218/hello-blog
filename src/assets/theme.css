@@ -1,0 +1,49 @@
+/* 默认主题 */
+:root {
+  --primary-background-color: #f1f1f1;
+  --background-color: #d3d3d3;
+  --heading-color: #000000;
+  --text-color: #2f2f2f;
+  --primary-text-color: #1f1f1f;
+}
+/* 暗色主题 */
+html[data-theme='dark'] {
+  --primary-background-color: #000000;
+  --background-color: #333333;
+  --heading-color: #ffffff;
+  --text-color: #f1f1f1;
+  --primary-text-color: #dddddd;
+  color-scheme: dark;
+}
+
+html[data-theme='spring-pear-blossom'] {
+  --primary-background-color: #ffffff;
+  --background-color: #749978;
+  --heading-color: #678d7e;
+  --text-color: #dce0cf;
+  --primary-text-color: #4b6f55;
+}
+
+html[data-theme='forest-vegetation'] {
+  --primary-background-color: #ecf5f1;
+  --background-color: #1d4c28;
+  --heading-color: #356b2e;
+  --text-color: #597e21;
+  --primary-text-color: #8ca86f;
+}
+
+html[data-theme='the-shore-of-the-ocean'] {
+  --primary-background-color: #dff4fc;
+  --background-color: #315f8a;
+  --heading-color: #3b6c99;
+  --text-color: #638eb3;
+  --primary-text-color: #76a3b7;
+}
+
+html[data-theme='hear-the-wind-sing'] {
+  --primary-background-color: #f7f4ed;
+  --background-color: #bec9c3;
+  --heading-color: #97b986;
+  --text-color: #a7b488;
+  --primary-text-color: #979893;
+}
